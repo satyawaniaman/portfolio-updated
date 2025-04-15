@@ -133,7 +133,7 @@ export function AboutSection() {
         >
           <Counter end={8} label="Projects Completed" delay={100} />
           <Counter end={5} label="Happy Clients" delay={300} />
-          <Counter end={1} label="Years Experience" delay={500} />
+          <Counter end={0} label="Years Experience" delay={500} />
           <Counter end={10} label="Technologies Mastered" delay={700} />
         </motion.div>
 
