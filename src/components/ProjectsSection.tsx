@@ -51,7 +51,7 @@ const projects: Project[] = [
     description:
       "A full-stack React + Express app with Prisma, Tailwind, and ShadCN that lets you store and manage YouTube links, tweets, and documents in a sleek personal dashboard.",
     imageUrl: "second_brain.png",
-    liveUrl: "https://second-brain-app-three.vercel.app/",
+    liveUrl: "https://second-brain-app-phi.vercel.app//",
     githubUrl: "https://github.com/satyawaniaman/second-brain-app",
     category: "fullstack",
     featured: true,
