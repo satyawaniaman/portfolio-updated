@@ -14,23 +14,33 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Your Name | Full-Stack Developer",
-  description: "Full-stack developer portfolio showcasing skills, projects and expertise in web development.",
-  keywords: ["developer", "portfolio", "full-stack", "web development", "Next.js", "React"],
-  authors: [{ name: "Your Name" }],
-  creator: "Your Name",
+  title: "Aman Satyawani",
+  description:
+    "Full-stack developer portfolio showcasing skills, projects and expertise in web development.",
+  keywords: [
+    "developer",
+    "portfolio",
+    "full-stack",
+    "web development",
+    "Next.js",
+    "React",
+  ],
+  authors: [{ name: "Aman Satyawani" }],
+  creator: "Aman Satyawani",
   openGraph: {
     type: "website",
     locale: "en_US",
     url: "https://yourwebsite.com",
-    title: "Your Name | Full-Stack Developer",
-    description: "Full-stack developer portfolio showcasing skills, projects and expertise in web development.",
-    siteName: "Your Name Portfolio",
+    title: "Aman Satyawani",
+    description:
+      "Full-stack developer portfolio showcasing skills, projects and expertise in web development.",
+    siteName: "Aman Satyawani Portfolio",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Your Name | Full-Stack Developer",
-    description: "Full-stack developer portfolio showcasing skills, projects and expertise in web development.",
+    title: "Aman Satyawani",
+    description:
+      "Full-stack developer portfolio showcasing skills, projects and expertise in web development.",
     creator: "@yourusername",
   },
 };
@@ -41,7 +51,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${geistSans.variable} ${geistMono.variable}`} suppressHydrationWarning>
+    <html
+      lang="en"
+      className={`${geistSans.variable} ${geistMono.variable}`}
+      suppressHydrationWarning
+    >
+      <head>
+        <link rel="icon" href="/star.svg" />
+      </head>
       <ClientBody>{children}</ClientBody>
     </html>
   );
