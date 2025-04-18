@@ -31,8 +31,8 @@ const projects: Project[] = [
     title: "Sales Coach",
     description:
       "SaaS MVP that enables users to upload sales call transcripts, analyze their content using AI-powered NLP, and generate personalized sales coaching insights. ",
-    imageUrl: "SalesCoach.png",
-    liveUrl: "ai-transcript-fe.vercel.app",
+    imageUrl: "salesCoach.png",
+    liveUrl: "https://ai-transcript-fe.vercel.app/",
     githubUrl: "https://github.com/satyawaniaman/AI-Transcript-fe",
     category: "fullstack",
     featured: true,
