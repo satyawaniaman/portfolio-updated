@@ -80,25 +80,24 @@ const projects: Project[] = [
       { name: "Framer Motion" },
     ],
   },
-  // {
-  //   id: "crypto-dashboard",
-  //   title: "CollabCanvas",
-  //   description:
-  //     "CollabCanvas is a collaborative, real-time whiteboard application designed to bring teams together seamlessly.",
-  //   imageUrl: "collabCanvas.png",
-  //   liveUrl: "http://collab-canvas.buildspark.online/",
-  //   githubUrl: "https://github.com/satyawaniaman/CollabCanvas",
-  //   category: "frontend",
-  //   featured: false,
-  //   technologies: [
-  //     { name: "Next.js" },
-  //     { name: "Convex" },
-  //     { name: "Tailwind CSS" },
-  //     { name: "Cleark" },
-  //     { name: "LiveBlocks" },
-  //     { name: "Shadcn UI" },
-  //   ],
-  // },
+  {
+    id: "crypto-dashboard",
+    title: "engaze-landing-page",
+    description:
+      "A modern, refreshed take on Engaze’s landing page — redesigned for a cleaner UI, smoother UX, and a more engaging first impression.",
+    imageUrl: "engaze.png",
+    liveUrl: "https://engaze.netlify.app/",
+    githubUrl: "https://github.com/satyawaniaman/engaze-career-glow",
+    category: "landing",
+    featured: false,
+    technologies: [
+      { name: "React.js" },
+      { name: "Tailwind CSS" },
+      { name: "Framer Motion" },
+      { name: "Shadcn UI" },
+      { name: "TypeScript" },
+    ],
+  },
   {
     id: "nft-marketplace",
     title: "Learnly",
